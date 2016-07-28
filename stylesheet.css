@@ -1,0 +1,36 @@
+.gallery {
+}
+.gallery .previews, .gallery .full, .gallery .desc {
+float: left;
+margin-right: 10px;
+}
+.gallery .desc, .gallery .full {
+width: 400px;
+font-size: 12px;
+}
+.gallery .desc h2 {
+margin-top: 0;
+}
+.gallery .previews a {
+display: block;
+margin-bottom: 10px;
+}
+.gallery .full, .gallery .full img {
+height: 598px;
+}
+.gallery .previews a, .gallery .full {
+    border: 1px solid #910A30;
+}
+.gallery .previews a:hover, .gallery .previews a.selected {
+border: 1px solid #777;
+}
+.gallery .full img:hover {
+cursor: pointer;
+}
+.clearfix:after {
+content: ".";
+visibility: hidden;
+display: block;
+height: 0;
+clear: both;
+}
